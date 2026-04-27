@@ -114,6 +114,7 @@
 
     <ul>
         <li><strong>READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Required to scan and display video files stored on your device, SD card, or USB drives.</li>
+        <li><strong>WRITE_EXTERNAL_STORAGE:</strong> Needed to perform file operations such as renaming video files and deleting videos from storage (including SD card and USB drives when applicable).</li>
         <li><strong>MANAGE_EXTERNAL_STORAGE (Full Storage Access):</strong> Used to access video files on external USB drives (OTG) and all folders on Android 11+. We only access video files, not other personal documents unnecessarily.</li>
         <li><strong>FOREGROUND_SERVICE / POST_NOTIFICATIONS:</strong> Used to generate video thumbnails in the background efficiently without blocking the UI. A notification is shown while thumbnail generation is active.</li>
         <li><strong>INTERNET:</strong> Required only for displaying AdMob advertisements. No video content or personal data is uploaded.</li>
